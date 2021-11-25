@@ -1,0 +1,29 @@
+
+/* Css for page navigation */
+
+.paginationBtn{
+    height: 40px;
+    list-style: none;  
+    justify-content: right;
+
+}
+
+.paginationBtn a{
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid black;
+    
+    cursor: pointer;
+}
+
+.paginationBtn a:hover{
+    color: white;
+    background-color: #2b2eff;
+}
+
+.paginationActive a{
+    color: white;
+    background-color: #2b2eff;
+}
+
+
